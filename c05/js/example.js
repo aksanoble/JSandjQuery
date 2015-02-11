@@ -58,4 +58,4 @@ var totalItems = document.querySelectorAll('li').length;
 
 var newHeading = headingText + '<span>' + totalItems + '</span>'
 ;
-heading.textContent = newHeading;
+heading.innerHTML = newHeading;
